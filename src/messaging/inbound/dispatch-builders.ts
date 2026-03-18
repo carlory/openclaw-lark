@@ -10,7 +10,7 @@
  */
 
 import type { HistoryEntry } from 'openclaw/plugin-sdk';
-import { buildPendingHistoryContextFromMap } from 'openclaw/plugin-sdk';
+import { buildPendingHistoryContextFromMap } from 'openclaw/plugin-sdk/feishu';
 import type { MessageContext } from '../types';
 import type { DispatchContext } from './dispatch-context';
 import { LarkClient } from '../../core/lark-client';

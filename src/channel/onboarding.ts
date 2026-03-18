@@ -15,7 +15,8 @@ import type {
   ClawdbotConfig,
   WizardPrompter,
 } from 'openclaw/plugin-sdk';
-import { DEFAULT_ACCOUNT_ID, formatDocsLink } from 'openclaw/plugin-sdk';
+import { DEFAULT_ACCOUNT_ID } from 'openclaw/plugin-sdk/feishu';
+import { formatDocsLink } from 'openclaw/plugin-sdk/feishu';
 import type { FeishuConfig } from '../core/types';
 import { getLarkCredentials } from '../core/accounts';
 import { probeFeishu } from './probe';

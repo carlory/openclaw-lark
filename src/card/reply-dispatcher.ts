@@ -16,7 +16,7 @@ import {
   createTypingCallbacks,
   logTypingFailure,
   type ReplyPayload,
-} from 'openclaw/plugin-sdk';
+} from 'openclaw/plugin-sdk/feishu';
 import { getLarkAccount } from '../core/accounts';
 import { resolveFooterConfig } from '../core/footer-config';
 import { LarkClient } from '../core/lark-client';

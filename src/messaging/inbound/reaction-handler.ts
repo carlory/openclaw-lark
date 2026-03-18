@@ -16,7 +16,7 @@
 
 import * as crypto from 'node:crypto';
 import type { ClawdbotConfig, RuntimeEnv, HistoryEntry } from 'openclaw/plugin-sdk';
-import { DEFAULT_GROUP_HISTORY_LIMIT } from 'openclaw/plugin-sdk';
+import { DEFAULT_GROUP_HISTORY_LIMIT } from 'openclaw/plugin-sdk/feishu';
 import type { FeishuReactionCreatedEvent } from '../types';
 import type { MessageContext } from '../types';
 import { getLarkAccount } from '../../core/accounts';

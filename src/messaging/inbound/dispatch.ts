@@ -15,7 +15,7 @@
  */
 
 import type { RuntimeEnv, HistoryEntry } from 'openclaw/plugin-sdk';
-import { clearHistoryEntriesIfEnabled } from 'openclaw/plugin-sdk';
+import { clearHistoryEntriesIfEnabled } from 'openclaw/plugin-sdk/feishu';
 import type { MessageContext } from '../types';
 import type { LarkAccount } from '../../core/types';
 import type { FeishuGroupConfig } from '../../core/types';

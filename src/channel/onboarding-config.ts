@@ -10,7 +10,7 @@
  */
 
 import type { ClawdbotConfig, DmPolicy } from 'openclaw/plugin-sdk';
-import { addWildcardAllowFrom } from 'openclaw/plugin-sdk';
+import { addWildcardAllowFrom } from 'openclaw/plugin-sdk/feishu';
 
 // ---------------------------------------------------------------------------
 // Config mutation helpers
